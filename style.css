@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;500;600;700&family=Nanum+Gothic:wght@800&family=Orbitron&family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+/* -----nav-bar------ */
+.navbar {
+    height: 40px;
+    background-color: black;
+    color: white;
+    /* display: flex;*/
+}
+
+.navbar ul {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 12px;
+    
+
+}
+.navbar ul li {
+    list-style: none;
+    font-size: 10px;
+ 
+    font-weight: 500;
+}
+/* ------main-container------- */
+.main-container {
+    background-color: #262626;
+    
+
+
+}
+
+.bg-img {
+    background-image: url(./images/girl\ image.jpg);
+    background-size: cover;
+    background-position: center top;
+    height: 115vh;
+
+}
+
+.navbar-main {
+    height: 100px;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    height: 37px;
+    /* padding-left: 20px; */
+    /* margin-top: 10px; */
+
+}
+
+.navbar-main ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    width: 60%;
+
+
+
+}
+
+.navbar-main ul li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 700;
+    /* padding-top: 8px; */
+}
+
+.icons {
+    color: white;
+    display: flex;
+ width: 20%;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.icons i {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.india {
+    font-weight: 500;
+    /* font-size: 15px; */
+    font-size: 1.0rem;
+    padding: 4px;
+    }
+
+.text-section {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    color: white;
+    /* flex-direction: column; */
+    height: 600px;
+    width: 60%;
+    padding-top: 280px;
+    /* border: 2px solid red; */
+
+}
+
+.text-section h1 {
+    /* font-size: 48px;
+    margin-left: 200px;
+    font-weight: 800; */
+
+    /* font-family: helveticaneueltpro-hvcn,sans-serif; */
+    /* font-style: normal; */
+    font-weight: 800;
+    font-family: helveticaneueltpro-cn,sans-serif;;
+    text-transform: none;
+    margin-left: 130px;
+    /* font-size: 4.0rem; */
+    font-size: 48px;
+    letter-spacing: .01rem;
+    line-height: 1;
+    text-transform: uppercase;
+    position: absolute;
+   top: 41%;
+}
+
+.text-section p {
+
+    /* width: 55%;
+    font-size: 15px; */
+    /* border: 1px solid red; */
+
+    /* text-align: center; */
+
+    font-family: helveticaneueltpro-cn,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: .05rem;
+    line-height: 15px;
+    font-size: 15px; 
+       margin-left: 130px;
+        /* margin-top: 1.5rem; */
+   }
+
+.text-section button {
+      margin-top: 10px;
+       height: 50px;
+    width: 187px;
+    border: none;
+     font-weight: 600; 
+     margin-left: 130px;
+    color: black;
+    font-size: 15px;
+    margin-top: 16px;
+    border-radius: 2px;
+    font-family: sans-serif;
+background-color: white;
+    text-transform: uppercase;
+   
+}
+/* ------page-two------------- */
+
+.second-section {
+    color: white;
+    height: 140vh;
+
+
+}
+
+.second-img {
+    background-image: url(./images/full-img-bg.jpg);
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+
+
+}
+
+.second-text-section {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    /* height: 550px; */
+    /* margin-top: 50px; */
+    /* border: 2px solid red; */
+
+}
+
+.second-text-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.second-text-section p {
+
+    width: 40%;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 5px;
+
+    
+}
+
+.second-text-section button {
+    margin-top: 14px;
+    height: 50px;
+    width: 187px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 3px;
+    border: none;
+    }
+/* -------page-three---------- */
+
+.third-section {
+    height: 110vh;
+      background-image: url(./images/marshal-part-3.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.thrid-text-section {
+    float: right;
+    /* background-color: aqua; */
+    margin-top: 530px;
+    padding-bottom: 50px;
+    margin-right: 500px;
+    color: white;
+    font-size: 15px;
+    height: 200px;
+    /* width: 10%; */
+    display: flex;
+    text-align: center;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+
+}
+.thrid-text-section h2{
+    font-size: 45px;
+    margin-left: 37px;
+}
+
+.thrid-text-section button {
+    margin-top: 20px;
+    height: 55px;
+    width: 210px;
+    background-color: white;
+      font-weight: 800;
+    border: none;
+    margin-left: 180px;
+    border-radius: 3px;
+}
+/* -------page-four--------- */
+.forth-section {
+    height: 80vh;
+      display: flex;
+justify-content: center;
+    /* padding: 10px; */
+   padding: 20px;
+   
+   
+}
+
+.boys-part-4{
+      bottom: 10%;
+      width: 90%;
+      background-color: blue;
+    background-image: url(./images/marshal-part-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    /* margin-left: 10px; */
+     
+}
+
+.girl-text-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: red; */
+    color: white;
+    /* height: 500px; */
+    /* padding-top: 300px; */
+    margin-top: 28%;
+    text-align: center;
+    /* width: 100%; */
+    margin-left: 200px;
+    padding-right: 350px;
+    /* border: 2px solid red; */
+}
+.girl-text-section h2{
+    width: 70%;
+    font-size: 53px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    /* height: 50px; */
+    text-align: center;
+    padding-bottom: 10px;
+    line-height: 50px;
+    /* border: 2px solid teal; */
+}
+.girl-text-section button{
+    margin-top: 20px;
+    height: 45px;
+    width: 150px;
+    font-weight: 800;
+    background-color: white;
+    border: none;
+
+}
+.girl-text-section p{
+font-weight: 400;
+font-size: 16px;
+}
+
+/* ---------last-section---- */
+
+.last-section{
+    height: 120px;
+    background-color: #262626;
+    
+}
+.last-section-text{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    padding-top: 20px;
+    /* margin: auto; */
+}
+.last-section-text h1{
+    font-size: 21px;
+    color: white;
+    margin-left: 80px;
+    letter-spacing: -1;
+    width: 21%;
+    
+}
+.last-section-text h1 span{
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+.last-section-text span input{
+    width: 200%;
+    height: 45px;
+    margin-left: 10px;
+    text-align: center;
+    outline: none;
+    font-size: 18px;
+}
+.SUBSCRIBE{
+    display: flex;
+    /* padding-top: 20px; */
+    width: 50%;
+}
+
+.SUBSCRIBE h3{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-left: 230px;
+    margin-top: 8px;
+    width: 35%;
+    /* font-weight: bolder; */
+
+}
+.SUBSCRIBE button{
+    width: 175px;
+    height: 50px;
+    margin-left: 50px;
+    font-weight: 800;
+      font-size: 14px;
+color: rgb(3, 3, 3);
+    /* border: 2px ; */
+
+}
+
+.SUBSCRIBE a{
+    color: white;
+    font-weight: bolder;
+}
+
+
+/* ----footer-section-------------- */
+.footer-section{
+    display: flex;
+    background-color:black;
+}
+.footer-text{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 250px;
+    color: white;
+}
+.footer-text h3{
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    padding-top: 80px;
+}
+.footer-text li{
+    list-style: none;
+    font-size: 15px;
+    line-height: 25px;
+    color: gray;
+}
+.footer-text li:hover{
+     text-decoration: underline;
+    cursor: pointer;
+    /* color: rgb(176, 161, 161); */
+    color: gainsboro;
+    /* border-bottom: 1px solid red; */
+   
+}
+.ul-list{
+    padding-bottom: 25px;
+    /* height: 50px; */
+}
+.ul-list h3{
+    cursor: pointer;
+}
+.account-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.account-text h3{
+    font-size: 25px;
+    font-weight: 500;
+     letter-spacing: -1px;
+     cursor: pointer;
+
+}
+.account-text h4{
+    font-size: 15px;
+    color: rgb(165, 162, 162);
+    text-transform: uppercase;
+    /* font-weight: 100px; */
+    padding-left: 50px;
+    cursor: pointer;
+    line-height: 20px;
+}
+#ACCOUNT{
+    font-weight: 400;
+    color: rgb(165, 162, 162);
+    cursor: pointer;
+}
+.account-text button{
+    margin-top: 10px;
+    height: 45px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    width: 220px;
+    font-size: 15px;
+    margin-left: 45px;
+    /* font-weight: 500; */
+    background-color: white;
+
+}
+.edit-text{
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 80px;
+    /* font-family: helveticaneueltpro-cn,sans-serif; */
+    
+    
+
+}
+.edit-text h3{
+    padding-left: 30px;
+    line-height: 35px;
+}
+.edit-text li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+   color: gainsboro;
+   }
+.edit-text li{
+    list-style: none;
+    line-height: 20px;
+    color: gray;
+    font-size: 13px;
+    padding-left: 30px;
+    
+}
+.payment-section{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+}
+.payment-section h1{
+    color: white;
+    font-size: 31px;
+    /* letter-spacing: .1rem; */
+    font-weight: bold;
+    
+    
+}
+.payment-section h4{
+    color:gray;
+    font-size: 14px;
+    font-weight: 500;
+    width: 20%;
+    text-align: center;
+}
+.pay-img-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    width: 40%;
+   /* height: 60px; */
+    
+    
+}
+.pay-img-section img{
+width: 6%;
+}
+/* ----end-section---------- */
+.end-section{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+   
+}
+.end-section h1{
+    font-size: 15px;
+    width: 28%; 
+    text-align: center;
+    font-weight: 700;
+}
+.end-section img{
+    height: 50px;
+    padding-right: 150px;
+}
+.end-section-icons i{
+    padding: 10px;
+    font-size: 40px;
+}
+
+
